@@ -4,13 +4,20 @@ let input1 = 0;
 let input2 = 0;
 let output = 0;
 
+function update_input() {
+	input1 = parseInt(document.getElementById("inputA").value);
+	input2 = parseInt(document.getElementById("inputB").value);
+	add(input1, input2);
+	subtract(input1, input2);
+}
+
 // BASIC
 function add(inputA, inputB) {
-	return inputA + inputB;
+	document.getElementById("Addition").innerHTML = "Addition: " + input1 + " + " + input2 + " = " + (inputA + inputB);
 }
 
 function subtract(inputA, inputB) {
-	return inputA - inputB;
+	document.getElementById("Subtraction").innerHTML = "Subtraction: " + input1 + " - " + input2 + " = " + (inputA - inputB);
 }
 
 function multiply(inputA, inputB) {
@@ -79,6 +86,12 @@ function permutation(inputA, inputB) {
 }
 
 // SERIES
+
+// Constant arrays
+
+
+
+// Functions
 function series_prime_numbers(input) {
 
 }
