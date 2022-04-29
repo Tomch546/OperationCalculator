@@ -1,0 +1,16 @@
+th, td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#inputs {
+  text-align: center;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
